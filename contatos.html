@@ -1,0 +1,235 @@
+<html>
+<head> <title>KM|CONTATOS</title>
+<link rel="stylesheet" href="estilo.css" type="text/css" />
+<meta charset="utf-8">
+<link rel="icon" type="imagem/png" href="img/logocortada.png" width="50px" height="50px" />
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+<style>
+/*Slider*/
+#slider {overflow: hidden;}
+#slider figure {position: relative;width: 625%;margin: 0;left: 0;animation: 20s slider infinite;}
+#slider figure img {width: 16%;float: left;}
+
+@keyframes slider {
+	0% {left: 0;}
+	20% {left: 0;}
+	25% {left: -100%;}
+	45% {left: -100%;}
+	50% {left: -200%;}
+	70% {left: -200%;}
+	75% {left: -300%;}
+	95% {left: -300%;}
+	100%{left: -400%;}
+}
+
+#pserv{
+    margin:0px;
+    height:initial;
+    width: 100%;
+	vertical-align:inherit;
+ }
+
+ #frase{
+		text-align: center;
+		font-family: Aletha;
+		margin-top: 5%;
+		color:#6B8E23;
+		font-size:130px;
+		font-weight: 50;
+	}
+	@font-face {
+		font-family: Aletha;
+		src: url(Fonte/Baby\ Aletha.otf);
+	}
+
+	@font-face {
+	font-family: questrial;
+	src:url(Fonte/Questrial-Regular.ttf);
+}
+
+.content{
+    display:flex;
+    justify-content:center;
+}
+    .contato{
+        width: 400px ;
+    }
+    .form{
+        display: flex; 
+        flex-direction: column;
+    }
+    .field{
+        padding: 10px;
+        margin-bottom: 15px; 
+        border: 1px solid #828282; 
+        border-radius: 8px; 
+        font-family: questrial; 
+        font-size: 16px;
+    }
+    .field2{
+        padding: 10px; 
+        margin-bottom: 15px; 
+        border: 1px solid #729e1a; 
+        border-radius: 8px; 
+        color:white; 
+        font-family: questrial; 
+        font-size: 16px; background-color:#6B8E23;
+    }
+
+    textarea{
+        height: 150px; 
+        min-width: 400px; 
+        max-width:400px;
+
+    }
+#for {
+    font-family: Aletha;
+    font-size: 50px;
+    margin-left: 29%;
+    font-weight: 300;
+    
+
+}
+
+#icons{
+	width: 325px; 
+	height: 308px; 
+	float: left;
+	margin-left: 12%;
+	margin-top: 10%; 
+	-webkit-box-shadow: 10px 10px 17px 0px rgba(38, 197, 46, 0.15);
+	-moz-box-shadow: 10px 10px 17px 0px rgba(109, 221, 57, 0.15);
+	box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.15);	
+}
+#icons2{
+	width: auto; 
+	height: 60px; 
+	float: left;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	margin-left: 13px;
+}
+#icons2 img{
+	float: left;
+	width: 30px;
+	height: 30px;
+}
+#icons2 p{
+	font-size: 19px;
+	font-family: questrial;
+	float: right;
+	width: 260px;
+	height: auto;
+	color: #6B8E23;
+	margin-left: 13px;
+	margin-top: 5px;
+
+}
+
+#frase::after{
+
+content: '';
+display: block;
+width: 80%;
+margin: 0 auto;
+height: 1px;
+background-color:#6B8E23;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="total">
+
+<div id="topo">
+	<div id="menu">
+		<div id="logo">
+			<a href="index.html">
+		</div>
+		<div id="img-menu">
+			<img src="img-menu.png">
+		</div>
+		<div id="links">
+			<a href="index.html"> HOME </a>
+			<a href="Serviços.html"> SERVIÇOS </a>
+
+
+
+			<a href="contatos.html" style="color:#6B8E23; border-bottom: solid #6b8e23 3px;"> CONTATOS </a>
+			<a href="login.php"> LOGIN </a>
+		</div>
+		
+	</div>
+</div>
+</div>
+
+
+
+<h1 id="frase">Fale Conosco</h1>
+	
+<br>
+<br>
+<br>
+<br>
+<br>
+
+   <div id="form">
+    <section class="content">
+    <div class="contato">
+                
+                 <h3 id="for" style="color:#6B8E23">Formulário<br/> <br/></h3>
+                 
+                 <form class="form" method="post" action="./email.php">
+                 
+                 <input class="field" name="name" placeholder="Nome">
+        
+                 <input class="field" name="Telefone" placeholder="Telefone">
+                 
+                 <input class="field" name="email" placeholder="Email">
+                 
+                 <textarea class="field" name="message" placeholder="Digite aqui sua mensagem">	 </textarea>
+                 
+                 <input class="field2" type="submit" value="Enviar">
+                 </form>
+                </div>
+
+                <div id="icons">
+                    <div id="icons2"><img src="Img-Contatos/Instagram.png"> <p>@nutrikarolinemarques</p> </div>
+                    <div id="icons2"><img src="Img-Contatos/facebook.png"> <p>Nutri KarolineMarques</p> </div>
+                    <div id="icons2"><img src="Img-Contatos/wpp.png"> <p>(21) 96709-7640</p> </div>
+                    <div id="icons2"><img src="Img-Contatos/gmail.png"> <p>kmarques.bastos@gmail.com</p> </div>
+                </div>
+         
+            </div>
+            </div>
+
+  
+	
+<section id="mapa">
+
+	<div class="maps">
+	<h2 style="color:#6B8E23" class="Dra">Dra. Karoline Marques</h2>
+	<p>(21) 96709 - 7640</p>
+	<p>@nutrikarolinemarques</p>
+	</div>			
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.083428958708!2d-43.34130798508354!3d-22.87337628502877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x996352fa38637f%3A0x95260705652f290e!2sCentro%20Comercial%20Polo%201!5e0!3m2!1spt-BR!2sbr!4v1663078474681!5m2!1spt-BR!2sbr"  width="600" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+</section>	
+<div id="rodape">
+
+<address></address>
+</div>
+
+<div id="r3"> <font face="Roboto" color="#808080">
+<p>© Copyright 2022; Todos os direitos reservados. Design by Carolina Salles</p> </font>
+</div>
+	  
+</div>
+	 	 
+</div>	 
+</body>
+</html>

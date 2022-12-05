@@ -1,0 +1,821 @@
+:root{
+	background-color: #fff;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@media(max-white: 1080px){
+	html{
+		font-size: 93.75%;
+	}
+  
+  
+  }
+  
+  
+@media screen and (max-width: 768px){
+	html{
+		font-size: 87.5%;
+	}
+	
+	#artTwo {
+		display: flex;
+		align-items: center;
+		flex-direction: column-reverse;
+		padding: 1rem;
+
+	 }
+	 #art {
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		flex-direction: column;
+		padding: 1rem;
+	 }
+
+	 #artTree {
+		display: flex;
+		flex-direction: column;
+		align-items:baseline;
+		padding: 1rem;
+	 }
+
+	 #imagemFome{
+		margin: auto;
+	 }
+	 
+	#imagemJejum {
+		margin:auto;
+	}
+
+	#imagemHabito {
+		margin:auto;
+	}
+
+	#consultas {
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		flex-direction: column;
+		padding: 1rem;
+
+	}
+	#fitoterapia {
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		flex-direction: column;
+		padding: 1rem;
+	}
+
+	#reeducação {
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 1rem;
+	}
+
+	#emagrecimento {
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		flex-direction: column;
+		padding: 1rem;
+	}
+	
+	#maps {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding: 2rem;
+
+	}
+}
+  
+body{
+	margin: 0; 
+	width: 100%; 
+	background-color: #ffff;
+}
+
+* { margin: 0; padding: 0; }
+
+#total{
+	width: 100%; 
+	height: auto;  
+	margin: auto;  
+}
+
+#logo{
+	width: 84px;
+}
+
+#img-menu{
+	width: 24rem;
+	opacity: 77%;
+
+}
+#menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 1rem;
+	height: 12rem;	
+	
+
+}
+
+#links{
+	display: flex;
+	flex-direction:unset;
+	gap: 2rem;
+	margin-left: -10%;
+	margin-top:-5%;
+	
+}
+#links a{
+	
+	text-decoration: none;
+	color: #6B8E23;
+	display: inline-block;
+	padding: 10px 0px 5px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 33px;
+	margin-top: 4%;
+}
+
+
+
+
+#slider {
+
+	overflow: hidden; 
+	margin-bottom:1px;
+
+	
+}
+
+.slider li{
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height:auto;
+    width: auto;
+	vertical-align: 1px; 
+ } 
+
+
+.slider img::after{
+
+	content: '';
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	height: 1px;
+	background-color:#6B8E23;
+}
+
+#conteudo {
+    width: 100%;
+    height: auto;
+	float: left;
+
+}
+#teste{
+	display:flex;
+	max-width: 1080px;
+	margin: 16px auto;
+	justify-content: space-between;
+	gap:30px;
+	margin-top: -1%;
+
+}
+
+
+.item{
+	margin: 2rem 0;
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 2rem;
+	opacity: 90%;
+
+}
+
+.item h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	margin-top: 120%;
+	margin-left: -98%;
+}
+
+.item img{
+	width: 55rem;
+
+}
+
+#teste img{ 
+	float: left; 
+	border-radius: 1000px;
+}
+
+/* Make the image to responsive */
+.image {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+
+#rodape{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-track-piece{
+	background-color: #ebebeb;
+}
+::-webkit-scrollbar-thumb{
+	background-color:#828282;
+	outline: 2px solid #ebebeb;
+	outline-offset: -2px;
+	border: .1px solid #828282;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:rgb(107, 142, 35);
+    border: .1px solid rgb(107, 142, 35);
+}
+
+#quemsou {
+    margin: auto;
+    height: auto;
+    width: 100%;
+	vertical-align: top;
+ }
+
+
+ #maps {
+
+	margin-top: 3rem;
+    display: flex;
+    align-items:flex-end;
+    justify-content:end;
+	border-radius: 25px;
+    gap: 2rem;
+    font-size: 1.1rem;
+    padding: 2rem;
+
+
+}
+
+#txt h2{
+	margin-top:25%;
+	color:#6B8E23;
+	font-size: 20px;
+
+}
+
+#post-content{
+
+	opacity: 95%;
+
+}
+
+#post-content::after{
+
+	content: '';
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	height: 1px;
+	background-color:#6B8E23;
+	}
+
+
+#meio {
+
+	display:flex;
+	justify-content: justify;
+	align-items: center;
+	max-width: 100%;
+	margin: 16px auto;
+	gap:30px;
+	margin-top: 2%;
+	opacity: 95%;
+
+}
+
+#imagem-text{
+
+	display: flex;
+	justify-content: justify;
+	align-items: center;
+    flex-wrap: wrap;
+	gap: 16px;
+	max-width: 100%;
+	text-align: center;
+	opacity: 95%;
+	align-items: center;
+
+
+}
+#r3{
+	width: 100%;
+	height: 40px ;
+	float: left;
+	background-color:#ffffffc4;
+
+}
+
+#r3 p{
+	width: auto;
+	height: auto;
+	line-height: 20px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color:#6B8E23;
+	font-size: 13px;
+	margin-top: 9px;		
+}
+
+#art{
+	margin-top: 3rem;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 2rem;
+    font-size: 1.1rem;
+    padding: 2rem;
+
+}
+
+#art img{
+		width: 35%;
+		border-radius: 25px;
+		opacity: 90%;
+}
+
+#art .fomeEmocional {
+
+	padding: 1rem;
+}
+
+#art .fomeEmocional p{
+	margin-top: 2rem;
+	line-height: 1.6;
+	font-size: 1.1rem;
+	text-align: justify;
+	font-family: questrial;
+}
+
+.fomeE {
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 550;
+	font-family: aletha;
+	
+}
+
+.fomeE::after{
+
+	content: '';
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	height: 1px;
+	background-color:#6B8E23;
+}
+
+
+#artTwo {
+
+	margin-top: 3rem;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 2rem;
+    font-size: 1.1rem;
+    padding: 2rem;
+
+
+}
+
+#artTwo img{
+	width: 35%;
+	border-radius: 25px;
+	opacity: 90%;
+}
+
+#artTwo .jejum{
+	
+	padding: 1rem;
+	
+}
+
+#artTwo .jejum p{
+
+	margin-top: 2rem;
+	line-height: 1.6;
+	font-size: 1.1rem;
+	text-align: justify;
+	font-family: questrial;
+
+}
+
+.Qjejum {
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 550;
+	font-family: aletha;
+
+}
+
+.Qjejum::after{
+
+	content: '';
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	height: 1px;
+	background-color:#6B8E23;
+}
+
+
+#artTree {
+	margin-top: 3rem;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 2rem;
+    font-size: 1.1rem;
+    padding: 2rem;
+
+
+}
+
+#artTree img {
+	width: 35%;
+	border-radius: 25px;
+	opacity: 90%;
+}
+
+#artTree .habitos{
+	padding: 1rem;
+}
+
+#artTree .habitos p{
+
+	margin-top: 2rem;
+	line-height: 1.6;
+	font-size: 1.1rem;
+	text-align: justify;
+	font-family: questrial;
+}
+
+.habito {
+	text-align: center;
+	font-size: 3rem;
+	font-weight:550;
+	font-family: aletha;
+}
+        
+.habito::after{
+
+	content: '';
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	height: 1px;
+	background-color:#6B8E23;
+}
+
+
+#mapa {
+	margin-top: 3rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 11rem;
+    font-size: 1.1rem;
+    padding: 2rem;
+
+}
+
+#mapa .maps{
+	padding: 5rem;
+	
+
+}
+
+#mapa .maps p{
+	margin-top: 2rem;
+	line-height: 0;
+	font-size: 1.1rem;
+	text-align:start;
+	font-family: questrial;
+}
+
+.dra {
+		text-align:start;
+		font-size: 3rem;
+		font-weight:550;
+		font-family: aletha;
+
+
+}
+
+iframe {
+	opacity: .3;
+ }
+ iframe:hover {
+	opacity: 1;
+ }
+
+                 /*PAGINA DE SERVIÇOS*/
+
+				 #consultas {
+
+					margin-top: 3rem;
+					display: flex;
+					align-items: start;
+					justify-content: start;
+					gap: 2rem;
+					font-size: 1.1rem;
+					padding: 2rem;
+				
+					}
+				
+					#consultas img{
+						width: 35%;
+						border-radius: 25px;
+						opacity: 90%;
+					
+				}
+				
+				#consultas .consult{
+				
+				padding: 1rem;
+				}
+				
+				#consultas .consult p{
+					margin-top: 2rem;
+					line-height: 1.6;
+					font-size: 1.1rem;
+					text-align: justify;
+					font-family: questrial;
+				}
+				.cons {
+					
+					text-align: center;
+					font-size: 3rem;
+					font-weight: 550;
+					font-family: aletha;
+					
+				}
+				
+				.cons::after{
+
+					content: '';
+					display: block;
+					width: 80%;
+					margin: 0 auto;
+					height: 1px;
+					background-color:#6B8E23;
+				}
+
+				#fitoterapia {
+				
+				margin-top: 3rem;
+				display: flex;
+				align-items: start;
+				justify-content: start;
+				gap: 2rem;
+				font-size: 1.1rem;
+				padding: 2rem;
+				
+				}
+				
+				#fitoterapia img{
+						width: 35%;
+						border-radius: 25px;
+						opacity: 90%;
+					
+				}
+				
+				#fitoterapia .fitoter{
+				
+				padding: 1rem;
+				}
+				
+				#fitoterapia .fitoter p{
+					margin-top: 2rem;
+					line-height: 1.1;
+					font-size: 1.1rem;
+					text-align: justify;
+					font-family: questrial;
+				}
+				
+				.fito{
+					
+					text-align: center;
+					font-size: 3rem;
+					font-weight: 550;
+					font-family: aletha;
+					
+				}
+				.fito::after{
+
+					content: '';
+					display: block;
+					width: 80%;
+					margin: 0 auto;
+					height: 1px;
+					background-color:#6B8E23;
+				}
+				#reeducação {
+				
+				margin-top: 3rem;
+				display: flex;
+				align-items: start;
+				justify-content: start;
+				gap: 2rem;
+				font-size: 1.1rem;
+				padding: 2rem;
+				
+				}
+				
+				#reeducação img{
+						width: 35%;
+						border-radius: 25px;
+						opacity: 90%;
+					
+				}
+				
+				#reeducação .reeduc p{
+					margin-top: 2rem;
+					line-height: 1.2;
+					font-size: 1.1rem;
+					text-align: justify;
+					font-family: questrial;
+				}
+				
+				.reduc{
+					
+					text-align: center;
+					font-size: 3rem;
+					font-weight: 550;
+					font-family: aletha;
+					
+				}
+				
+				.reduc::after{
+
+					content: '';
+					display: block;
+					width: 80%;
+					margin: 0 auto;
+					height: 1px;
+					background-color:#6B8E23;
+				}
+
+
+				#emagrecimento {
+				
+				margin-top: 3rem;
+				display: flex;
+				align-items: start;
+				justify-content: start;
+				gap: 2rem;
+				font-size: 1.1rem;
+				padding: 2rem;
+				
+				}
+				
+				#emagrecimento img{
+						width: 35%;
+						border-radius: 25px;
+						opacity: 90%;
+					
+				}
+				
+				#emagrecimento .emagrec p{
+					margin-top: 2rem;
+					line-height: 1.2;
+					font-size: 1.1rem;
+					text-align: justify;
+					font-family: questrial;
+				}
+				
+				.emag{
+					
+					text-align: center;
+					font-size: 3rem;
+					font-weight: 550;
+					font-family: aletha;
+					
+				}
+
+				.emag::after{
+
+	content: '';
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	height: 1px;
+	background-color:#6B8E23;
+}
+                 /*FIM DA PAGINA DE SERVIÇOS*/
+				 #textin {
+					text-align: center;
+					color: #6B8E23;
+					font-size: 25px;
+					margin: 0%;
+					text-align-last: auto;
+					font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+					font-weight: 300;
+					letter-spacing: 1px;
+					margin-top: 5%;
+				}
+		
+		
+		
+		
+				#textin2 {
+					font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+					margin-left: 47%;
+					letter-spacing: 1%;
+					margin-top: 15%;
+				}
+		
+		
+				#instagram {
+		
+					margin-left: 55%;
+					margin-top: 80%;
+					padding: 1%;
+		
+				}
+		
+				img {
+					max-width: 100%;
+					height: auto;
+				}
+		
+				@font-face {
+					font-family: Aletha;
+					src: url(Fonte/Baby\ Aletha.otf);
+				}
+		
+				@font-face {
+					font-family: questrial;
+					src: url(Fonte/Questrial-Regular.ttf);
+				}
+		
+				#fonte {
+					text-align: center;
+					font-family: minhaFonte;
+					margin-top: 15%;
+					color: #6B8E23;
+					font-size: 45px;
+					font-weight: 50;
+				}
+		
+				#frase {
+					text-align: center;
+					font-family: Aletha;
+					margin-top: 5%;
+					color: #6B8E23;
+					font-size: 63px;
+					font-weight: 50;
+				}
+		
+				#frase::after {
+		
+					content: '';
+					display: block;
+					width: 80%;
+					margin: 0 auto;
+					height: 1px;
+					background-color: #6B8E23;
+				}

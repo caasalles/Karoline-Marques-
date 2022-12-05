@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+
+    <style>
+          @font-face {
+    font-family: Mulish;
+    src: url(fonte/mulish);
+  }
+    .conteiner {
+        display:flex;
+        justify-content:space-evenly;
+
+    }
+
+    .card {
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    margin-top:100px;
+    background-color: #A4BE7B;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-top:15px;
+    }
+
+    .pr {
+  font-weight: 20;
+  font-family: Mulish;
+  color:#5F8D4E;
+  text-align: center;
+  margin-top:30px;
+
+
+}
+
+.botao{
+    display:flex;
+    justify-content: center;
+    border-radius: 2px;
+    
+}
+.check{
+    display:flex;
+    justify-content: center;
+}
+
+.btn {
+    padding:8px 20px;
+    border-radius: 10px;
+    border: none;
+    transition: 1s;
+    background-color: #5F8D4E;
+    color:#fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 1s;
+    color: #fff;
+}
+
+.icone{
+    display:flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    margin-left:30%;
+    margin-top:17%;
+}
+
+h2,h3 {
+  display: flex;
+  justify-content: center;
+  color:#5F8D4E;
+  font-family: Mulish;
+  font-weight: 300;
+  font-size: 25px;
+
+}
+p{
+ text-align: center;
+ font-size: 20px;
+ color:#5F8D4E;
+ font-family: Mulish;
+
+}
+    </style>
+</head>
+<body>
+    
+    <h2 class="pr"> PRODUTOS</h2>
+
+    <div class="conteiner">
+        <form action="salvarproduto.php" method = "POST"></form>
+        <div class="card">
+        <div class="icone">
+            <img src="imagem/iconproduto.png">
+            </div>
+        <div class="texto">
+            <h2>QUINZENAL</h2>
+            <h3>R$ 250,00</h3>
+            <p>Inclui um retorno em 15 dias <br> </p>
+        </div>
+        <div class="check">
+        <input type="checkbox" name="quinzenal" value="quinzenal"></input>
+        </div>
+        <br>
+        <div class="botao">
+    
+            <button type="submit" class="btn">ENVIAR</button>
+        </div>
+        
+        </div>
+        <div class="card">
+            <div class="icone">
+                <img src="imagem/iconproduto.png">
+                </div>
+            <div class="texto">
+                <h2>MENSAL</h2>
+                <h3>R$ 195,00</h3>
+                <p>Sem retorno <br></p>
+            </div>
+            <div class="check">
+            <input type="checkbox" name="mensal"></input>
+            <input type="submit" name="submit"> </input>
+            </div>
+            <br>
+
+            </div>
+
+            <div class="card">
+            <div class="icone">
+                <img src="imagem/iconproduto.png">
+                </div>
+            <div class="texto">
+                <h2>ANUAL</h2>
+                <h3>R$ 2.340 </h3>
+                <p> Inclui uma consulta por semana<br></p>
+            </div>
+            <div class="check">
+            <input type="checkbox" name="anual"></input>
+            </div>
+            <br>
+            <div class="botao">
+        
+                <button type="butao" class="btn">ENVIAR</button>
+            </div>
+            
+            </div>
+        </form>
+        </div>
+
+ 
+
+
+</body>
+</html>
